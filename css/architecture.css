@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Architecture
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Architecture, Design, Construction
+-------------------------------------------------------------------*/
+
+/* google font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+
+
+
+/*------------------------------------------------------------------
+
+[Table of contents]
+
+1. body
+2. common Classes
+2. header 
+3. navigation / navbar
+4. sections
+4. footer
+
+NOTE: Every section is commented before starting.
+
+-------------------------------------------------------------------*/
+
+
+a{transition: background-color 0.5s ease; transition: color 1s; -webkit-transition: color 1s; -o-transition: .5s; -ms-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; transition: .5s;}
+a:hover {transition: background-color 0.5s ease; }
+img{ width:100%;}
+img:hover {transition: background-color 0.5s ease; }
+.clear{
+	clear:both;
+}
+.height5{	height:5px; }
+.height10{	height:10px; }
+.height15{	height:15px; }
+.height20{ 	height:20px; }
+.height25{	height:25px; }
+.height30{	height:30px; }
+.height35{	height:35px; }
+:focus{ outline:none;}
+
+
+
+
+
+
+/*..... COMMEN CLASSES ......*/
+
+
+.read-more-btn{ font-family: 'Montserrat', sans-serif; font-size: 15px; color: #fff; text-transform: uppercase; border-radius: 40px; padding: 20px 65px; display: inline-block;}
+.read-more-btn:hover{background:#000; color:#fff;}
+
+
+.big-text{
+    font-size: 35px;
+    font-weight: 600;
+    color: #e7a920;
+}
+.logo-text{
+	font-size: 15px;
+	color: #e7a920;
+	font-weight: 800;
+}
+.cb-header {
+  position: fixed;
+  left: 0;
+  visibility: hidden;
+}
